@@ -172,8 +172,8 @@ nav ul li a:hover {
 
 @media (max-width: 1000px) {
     .descrip {
-        font-size: 16px; /* Further decrease font size for smaller screens */
-        padding: 20px; /* Adjust padding for smaller screens */
+        font-size: 16px; 
+        padding: 20px; 
     }
 }
 
@@ -297,7 +297,7 @@ nav ul li a:hover {
 
 .text-box {
     margin-top: 105px;
-    flex: 1; /* Take up remaining space */
+    flex: 1; 
 }
 
 .text-box h1 {
@@ -324,14 +324,14 @@ nav ul li a:hover {
 @media (max-width: 1670px) {
     .aboutwrapper {
         transition: 0.4s;
-        flex-direction: column; /* Stack elements vertically */
-        text-align: center; /* Center-align text */
+        flex-direction: column; 
+        text-align: center; 
     }
     
     .aboutpng {
         float: none;
-        margin: 0 auto 15px; /* Center the image */
-        max-width: 100%; /* Ensure image fills container */
+        margin: 0 auto 15px; 
+        max-width: 100%; 
     }
 }
 
@@ -496,8 +496,8 @@ nav ul li a:hover {
       flex-direction: column;
       align-items: center;
       text-align: center;
-      padding-top: 50px; /* Adjust padding for spacing */
-      margin-bottom: 50px; /* Adjust margin for spacing */
+      padding-top: 50px; 
+      margin-bottom: 50px; 
     }
 
     .hayaowrapper {
@@ -507,9 +507,9 @@ nav ul li a:hover {
     .creator1png,
     .creator2png,
     .creator3png {
-      width: 70%; /* Set width to 70% */
-      height: auto; /* Maintain aspect ratio */
-      margin-bottom: 20px; /* Add space between image and text box */
+      width: 70%; 
+      height: auto; 
+      margin-bottom: 20px; 
     }
   
     .text-box3 {
@@ -519,8 +519,8 @@ nav ul li a:hover {
     .text-box2,
     .text-box3,
     .text-box4 {
-      width: 100%; /* Set width to 70% */
-      padding: 0 20px; /* Add padding to the sides */
+      width: 100%; 
+      padding: 0 20px; 
     }
   }
 
@@ -626,7 +626,6 @@ nav ul li a:hover {
   font-family: "Montserrat", sans-serif;*/
 
   .boxcontainer, .boxcontainer2, .boxcontainer3 {
-    /*bebu*/
     margin: 50px auto;
     padding: 0;
     font-family: "Montserrat";
@@ -637,7 +636,7 @@ nav ul li a:hover {
 
   .cover, .cover2, .cover3 {
     width: 100%;
-    max-width: 1600px; /* Adjust maximum width of the cover */
+    max-width: 1600px; 
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -647,8 +646,8 @@ nav ul li a:hover {
 
   .box, .box_2, .box_3 {
     margin: 10px;
-    width: calc(25% - 20px); /* Adjust the width here */
-    max-width: 100%; /* Ensure box doesn't exceed parent width */
+    width: calc(25% - 20px); 
+    max-width: 100%; 
     box-shadow: -1px 0 10px #000000;
     text-align: justify;
   }
@@ -665,12 +664,12 @@ nav ul li a:hover {
 
   @media only screen and (max-width: 768px) {
     .box h2, .box_2 h2, .box_3 h2 {
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 16px; 
     }
 
     .box p, .box_2 p, .box_3 p {
-        font-size: 14px; /* Adjust font size for smaller screens */
-        line-height: 20px; /* Adjust line height for smaller screens */
+        font-size: 14px; 
+        line-height: 20px; 
     }
 }
 
@@ -788,7 +787,7 @@ tbody tr:hover {
 }
 
 .footerwrapper {
-    position: relative; /* Set the container to relative positioning */
+    position: relative; 
     width: 100%;
     height: auto; 
     margin: auto; 
@@ -804,10 +803,10 @@ tbody tr:hover {
 .footer_content {
     flex: 1 1 300px; 
     margin: 0 20px;
-    margin-bottom: 40px; /* Add margin at the bottom */
+    margin-bottom: 40px; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
+    align-items: center; 
 }
 
 .footer_content h3 {
@@ -824,13 +823,13 @@ footer {
     background: #363434;
     padding: 20px 0;
     text-align: center;
-    position: relative; /* Ensure footer is positioned relative to its containing block */
+    position: relative; 
 }
 
 .bottom_bar {
-    position: absolute; /* Position the bottom_bar absolutely */
-    bottom: 10px; /* Adjust the distance from the bottom */
-    width: 100%; /* Occupy full width of footer */
+    position: absolute; 
+    bottom: 10px; 
+    width: 100%; 
     font-weight: 500;
-    text-align: center; /* Center the text */
+    text-align: center; 
 }
